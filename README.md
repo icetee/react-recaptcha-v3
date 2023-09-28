@@ -10,7 +10,7 @@ P.S. It will open the ReCaptcha window only when there are some doubts by Google
 
 ## Installation
 
-`npm install react-recaptcha-v3 --save`
+`npm install @icetee/react-recaptcha-v3 --save`
 
 ## Usage
 
@@ -23,7 +23,7 @@ There are two steps that you need to implement.
 This function should be imported and called in the main (parent) component of your app. We recommend calling it in `componentDidMount()` of `App.js`.
 
 ```
-import { loadReCaptcha } from 'react-recaptcha-v3'
+import { loadReCaptcha } from '@icetee/react-recaptcha-v3'
 
 ...
 
@@ -48,7 +48,7 @@ Create a new component with the following code and give it a try!
 
 ```
 import React, { Component } from 'react';
-import { ReCaptcha } from 'react-recaptcha-v3'
+import { ReCaptcha } from '@icetee/react-recaptcha-v3'
 
 class ExampleComponent extends Component {
 
